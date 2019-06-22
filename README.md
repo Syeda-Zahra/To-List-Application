@@ -19,7 +19,7 @@ The app uses a database that stores the entries for the To Do List. The user can
 
 Also, if the user accidently marked an item as done, he/she can mark it as undone and the value of "done" will return to 0. In addition to that, the user may also delete the items in the list if he/she feels that the list is getting too cluttered. The app uses all CRUD operations as it creates an entry, it reads the items and displays them on the screen in the to do list, it updates the items, and it deletes them if needed. 
 
-## Watch Video Below for the App Demo and to See How to Navigate the App ##
+## Watch the Video Below for the App Demo and to See How to Navigate the App ##
 
 [![](https://img.youtube.com/vi/dL5DQM0IZds/0.jpg)](https://www.youtube.com/watch?v=dL5DQM0IZds&feature=youtu.be)
 
