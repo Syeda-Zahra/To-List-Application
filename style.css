@@ -1,0 +1,111 @@
+body{
+  background-color: 	#DEB887;
+}
+
+body,
+input{
+  font: 1em "Open Sans", sans-serif;
+  color:#363639;
+}
+
+/*List*/
+.list{
+  background-color: #FFFFE0;
+  margin: 20px auto;
+  width: 100%;
+  max-width:500px;
+  padding: 20px;
+  border-radius:2px;
+  box-shadow: 2px 3px rgba(0, 0, 0, .1);
+  box-sizing:border-box;
+}
+
+.list .header{
+  font-family: "Shadows Into Light Two", cursive;
+  margin: 0 0 10px 0;
+}
+
+/*Items*/
+.items{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+.items li:hover .done-button{
+  opacity: 1;
+}
+.items li:hover .delete-button{
+  opacity: 1;
+}
+.items .item.done{
+  text-decoration: line-through;
+}
+
+.input{
+  width: 100%
+}
+
+.items li,
+.add-item .input{
+  border:0;
+  border-bottom:1px dashed #ccc;
+  padding: 15px 0;
+}
+
+.done-button{
+  display: inline-block;
+  font-size:0.8em;
+  background-color: #d9dfe1;
+  color: #363639;
+  padding: 3px 6px;
+  border:0;
+  opacity:0.4;
+
+}
+.delete-button{
+  display: inline-block;
+  font-size:0.8em;
+  background-color: #d9dfe1;
+  color: #363639;
+  padding: 3px 6px;
+  border:0;
+  opacity:0.4;
+}
+
+.btn.btn-secondary{
+  padding: 5px 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.sh-btns{
+  float: right;
+  padding-right: 10px;
+}
+.weatherapi{
+  float: right;
+  padding-left: 50px;
+  position: relative;
+}
+
+#getWeatherForcast{
+  width: auto;
+}
+
+#city{
+  width: 150px;
+}
+
+.btn.btn-tertiary{
+  background-color: #c9c0bb;
+}
+
+.btn.btn-quaternary{
+  background-color: #add8e6;
+  font-size: 10px;
+}
+
+h1{
+  color:white;
+}
