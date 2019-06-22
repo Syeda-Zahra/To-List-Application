@@ -11,7 +11,7 @@ License: [MIT Licence](https://opensource.org/licenses/MIT)
 # Create a Simple To Do List Web Application using PHP. #
 
 
-In this developer code pattern, we will create a web application using, PHP, HTML, CSS, Bootstrap, JQuery, phpMyAdmin, and the OpenWeather API. This application allows users to create a to-do list to help them get organised. It also includes a component for them to check the weather based on the city the user is in. 
+In this developer code pattern, we will create a web application using, PHP, HTML, CSS, Bootstrap, JQuery, MySQL Database, and the OpenWeather API. This application allows users to create a to-do list to help them get organised. It also includes a component for them to check the weather based on the city the user is in. 
 
 The app uses a database that stores the entries for the To Do List. The user can mark the items in the list as done which will update the value of the "done" field in the database to a 1, and the item will have a line through it as shown in the photo below. 
 
@@ -46,6 +46,9 @@ The figure below shows the overall functional flow of the app.
 3. The About Us page contains plain text giving a little background about the app.
  
 4. Finally clicking Logout in the navigation bar will log the user out of the app.
+
+## Databases ##
+Create a new database locally on phpMyAdmin. Then create two tables whithin the newly created databse. Name one 'userlogin' and the other 'todo'. In the userlogin table, create 3 fields: name, username, and password. Make username a primary as this field's value cannot be null. Then connect your application to the database on phpMyAdmin, and use it to validate user login or register a new user. Furthermore, the todo table has an auto incrementind id field which is te primary key of this database, it has an itemname which is a text type to store the to do list item. It also has a usrname field that allows us to display and save the user's list. This field is important because the list item are to be associate with each user. The other two fields it has are done, and created. The done field is a small int that only has a value of either 0 and 1. The 0 value means that an item on the list is marked as undone, and 1 means that it is done. The created field just stored the date the item was created.  
 
 ## Deployment of PHP apps to Heroku: ##
 
